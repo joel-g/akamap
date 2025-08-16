@@ -128,7 +128,11 @@ The build creates a static site that can be deployed to:
 4. Add tests if applicable
 5. Submit a pull request
 
-## 📄 License
+## � Report Bugs
+
+Found a bug or have a feature request? Reach out on Twitter: [@joel-g](https://twitter.com/joel-g)
+
+## �📄 License
 
 MIT License - see LICENSE file for details
 
