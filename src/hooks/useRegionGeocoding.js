@@ -1,5 +1,5 @@
 // Custom hook for managing region geocoding
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useCallback } from 'react';
 import { processRegions, getGeocodingSummary } from '../utils/geocoding';
 
 export const useRegionGeocoding = () => {

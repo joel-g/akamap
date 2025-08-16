@@ -15,8 +15,6 @@ import { fetchRegions } from './services/linodeApi';
 
 // Leaflet icon fix for React
 import L from 'leaflet';
-import icon from 'leaflet/dist/images/marker-icon.png';
-import iconShadow from 'leaflet/dist/images/marker-shadow.png';
 
 let DefaultIcon = L.divIcon({
   html: `<div class="custom-marker"></div>`,
@@ -33,7 +31,6 @@ function App() {
   const [showSummary, setShowSummary] = useState(false);
   
   const {
-    processedRegions,
     isLoading,
     error,
     geocodingSummary,
