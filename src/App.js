@@ -99,7 +99,7 @@ function App() {
       {/* Header */}
       <header className="app-header">
         <div className="header-content">
-          <h1>🗺️ Akamap</h1>
+          <h1>🗺️ AkaMap</h1>
           <p>Interactive Global Map of Akamai Linode Cloud Regions</p>
           <div className="header-stats">
             <span className="stat">
